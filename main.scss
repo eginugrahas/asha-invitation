@@ -1,0 +1,16 @@
+@import url(//db.onlinewebfonts.com/c/32441506567156636049eb850b53f02a?family=Times+New+Roman);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', sans-serif ;
+}
+
+.main {
+    background: url(./images/bg.png);
+    background-size: 100% 100%;
+}
+
+@import './scss/main-hero';

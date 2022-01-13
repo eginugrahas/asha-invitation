@@ -1,0 +1,101 @@
+@import url(//db.onlinewebfonts.com/c/32441506567156636049eb850b53f02a?family=Times+New+Roman);
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', sans-serif;
+}
+
+.main {
+  background: url(./images/bg.png);
+  background-size: 100% 100%;
+}
+
+.main-hero {
+  color: black;
+}
+
+.main-hero .main-content {
+  position: relative;
+}
+
+.main-hero .main-content h1 {
+  padding-top: 10rem;
+  font-size: 6rem;
+  font-weight: 500;
+}
+
+.main-hero .inv h1 {
+  padding-top: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main-hero .inv p {
+  padding-top: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.main-hero .ctd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.main-hero .ctd img {
+  position: relative;
+  top: -5px;
+  width: 14%;
+  height: 14%;
+}
+
+.main-hero .file {
+  padding: 1rem 0;
+}
+
+.main-hero .file .file-title {
+  font-size: 4rem;
+}
+
+.main-hero .file .file-title::after {
+  content: "    20:21";
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.main-hero .file img {
+  padding-left: 1rem;
+  width: 50%;
+  height: 50%;
+}
+
+.main-hero .file .event {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.main-hero .file .terms {
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+
+.main-hero .file .confirm {
+  width: 70%;
+  height: 70%;
+  padding-top: 0.5rem;
+  padding-bottom: 15rem;
+  margin-left: 2.5rem;
+}
+/*# sourceMappingURL=main.css.map */

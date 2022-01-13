@@ -1,0 +1,96 @@
+.main-hero {
+    color: black;
+
+  .main-content {
+    position: relative;
+
+    h1 {
+      padding-top: 10rem;
+      font-size: 6rem;
+      font-weight: 500;
+    }
+  }
+
+  .inv {
+    h1 {
+      padding-top:2rem;
+      font-size: 2rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    p {
+      padding-top: 0.5rem;
+      font-size: 1.3rem;
+      font-weight: 400;
+    }
+  }
+
+  .ctd {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 1rem;
+
+      img {
+          position: relative;
+          top: -5px;
+          width: 14%;
+          height: 14%;
+      }
+
+    // h1::after {
+    //   content: "";
+    //   background-image: url(./images/arrow.png);
+    //   display: inline-block;
+    //   background-size: 100% 100%;
+
+    //   /*size of your image*/
+    //   height: 50px;
+    //   width: 45px;
+
+    //   position: relative;
+    //   top: 15px;
+
+    // }
+  }
+  .file {
+      padding: 1rem 0;
+
+      .file-title {
+            font-size: 4rem;
+  
+        &::after {
+            content: "    20:21";
+            font-weight: lighter;
+            font-size: 2rem;
+        }
+      }
+      
+
+      img {
+          padding-left: 1rem;
+          width: 50%;
+          height: 50%;
+      }
+
+      .event {
+          width: 100%;
+          height: 100%;
+          padding: 0;
+      }
+
+    .terms {
+        padding-top: 2rem;
+        font-size: 2rem;
+    }
+
+    .confirm {
+        width: 70%;
+        height: 70%;
+        padding-top: 0.5rem;
+        padding-bottom: 15rem;
+        margin-left: 2.5rem;
+    }
+  }
+}
